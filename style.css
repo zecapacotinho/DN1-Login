@@ -1,0 +1,216 @@
+/*O site não é responsivo, pois no momento eu ainda não aprimorei as habilidades de tornas-los responsivos!*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-color: #7fffd4;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(84, 196, 159);
+    z-index: 1000;
+    padding: 15px 20px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 15px #00000031;
+}
+
+span{
+    color: rgb(0, 0, 88);
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: #25755b;
+    border-radius: 10px;
+    transition-duration: .34s;
+}
+
+
+
+.sig button{
+    background-color: #00f;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 17px;
+    margin-left: 15px;
+    position: relative;
+    right: 40px;
+
+}
+
+.sig button:hover{
+    background-color: rgb(3, 3, 121);
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    margin-top: 50px;
+    background-color: #01b87e;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+
+.login{
+    position: relative;
+    width: 50%;
+    border-radius: 10px;
+    flex: 1;
+    width: 50%;
+    text-align: center;    
+    padding: 20px;
+    overflow: auto;
+    height: 100vh;
+    margin-bottom: -80px; 
+    z-index: 1;
+}
+
+.entrar input{
+    width: 300px;
+    margin-top: 20px;
+    height: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    
+    
+}
+
+.sec{
+    top: 0;
+    right: 0;
+    flex: 1;
+    text-align: center;
+    width: 50%;
+    height: 100vh;
+    background: url(imagens/outro\ cara\ mexendo\ no\ computador.webp) no-repeat center center;
+    background-size: cover;
+    z-index: 0;
+    margin: -20px;
+}
+
+
+.lembrar{
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+button{
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 105);
+    cursor: pointer;
+}
+
+.esqueci{
+    margin-top: 20px;
+}
+
+.esqueci a{
+    color: #00f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.esqueci a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+.redes{
+    font-size: 18px;
+}
+
+.redes img{
+    cursor: pointer;
+}
+
+.sobre{
+    margin-left: 70px;
+    margin-top: -10px;
+}
+
+.sobre a{
+    text-decoration: none;
+    color: rgb(71, 69, 69);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.sobre li{
+    margin-top: 23px;
+}
+
+.sobre a:hover{
+    text-decoration: underline;
+}
+
+.sobre  ul{
+    list-style: none;
+}
+
+.inf{
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.novi{
+    display: block;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.novi input{
+    width: 300px;
+    margin-top: 20px;
+    height: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+
+
+
+
+
